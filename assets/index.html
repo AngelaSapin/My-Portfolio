@@ -1,136 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>My Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!--HEAD-->
-    <header>
-        <nav>
-            <div class="menu">
-              <div class="logo">
-                <a href="Index.html" id="myProfileLink">Profile</a>
-              </div>
-              <ul>
-                <div class="module" onclick="redirectToHomeWebsite()">
-                    <li><a href="Index.html">Home</a></li>
-                </div>
-                <div class="module" onclick="redirectToAboutWebsite()">
-                    <li><a href="About.html">About</a></li>
-                </div>
-                <div class="module" onclick="redirectToSkillsWebsite()">
-                    <li><a href="About.html">Skills</a></li>
-                </div>
-                <div class="module" onclick="redirectToProjectsWebsite()">
-                    <li><a href="Projects.html">Projects</a></li>
-                </div>
-                <div class="module" onclick="redirectToProjectsWebsite()">
-                    <li><a href="Projects.html">Projects</a></li>
-                </div>
-              </ul>
-            </div>
-    </header>
-<!--END OF HEAD-->
+  <header>
+    <div class="logo">JF<span>.</span></div>
 
-<!--MAIN-->
-    <main>
-            <img class="img" src="me.png" alt="Us">
-            <div class="center">
-                <div class="title">
-                    <h1>Hi I'm sophia Angela D. Sapin</h1>
-                    </div>
-              </div>
-            <div class="recent">
-                <div class="header">
-                    <h4>Reasons</h4>
-                </div>
-                <div class="reason">
-                    <h3>Here are the reasons why you should be my valentine</h3>
-                    <div class="reason-item">
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-                        <div class="info">
-                            <br>
-                            <h5>Reason 1</h5>
-                        </div>
-                        <p>I am very good at rizzing you up baby and that I can make you feel fantastic wink wink </p>
-                    </div>
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h4>Hello, I'm</h4>
 
-                    <div class="reason-item">
-                        <div class="info">
-                            <br>
-                            <h5>Reason 2</h5>
-                        </div>
-                        <p>I can shower you a lot of affection and attention</p>
-                    </div>
+      <h1>
+        Jericho
+        <span>Feolino</span>
+      </h1>
 
-                    <div class="reason-item">
-                        <div class="info">
-                            <br>
-                            <h5>Reason 3</h5>
-                        </div>
-                        <p>My love for you is unlimited and that I love you for everything like your personality, looks, style, everything I love you so much even if you're a worm</p>
-                    </div>
+      <p>
+        Crafting immersive digital experiences with code and creativity.
+        Passionate about building modern websites with elegant and responsive designs.
+      </p>
 
-                </div>
-            </div>
+      <div class="buttons">
+        <a href="#projects" class="btn primary-btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+      </div>
+    </div>
 
-            <div class="pic-container">
-                <div class="gallery">
-                    <p>Picture of us together! </p>
-                </div>
-                <div class="card">
-                        <img src="Romantic rawr/6242183396902155305.jpg" alt="Card Image">
-                        <div class="card-content">
-                        </div>
-                </div>
+    <div class="hero-image">
+      <div class="circle-image">
+        <img src="img/Pia.png" alt="Profile Image">
+      </div>
+    </div>
 
-                <div class="card">
-                    <img src="Romantic rawr/6055176195802250032.jpg" alt="Card Image">
-                    <div class="card-content">
-                    </div>
-            </div>
+    <div class="scroll-text">SCROLL DOWN</div>
+  </section>
 
-            <div class="card">
-                <img src="Romantic rawr/6307610128370747703.jpg" alt="Card Image">
-                <div class="card-content">
-                </div>
+  <section class="about" id="about">
+    <div class="about-text">
+      <h5>ABOUT ME</h5>
+      <h2>Who I Am</h2>
+
+      <p>
+        I'm a passionate web developer and designer who loves turning ideas into beautiful,
+        functional, and user-friendly websites. I focus on clean code, smooth user experiences,
+        and modern interfaces that stand out.
+      </p>
+
+      <div class="stats">
+        <div class="stat-box">
+          <h3>3+</h3>
+          <p>Years Experience</p>
         </div>
 
-        <div class="card">
-            <img src="Romantic rawr/6323505029239126025.jpg" alt="Card Image">
-            <div class="card-content">
-            </div>
-    </div>
-    <div class="card">
-        <img src="Romantic rawr/6235406715898149007.jpg" alt="Card Image">
-        <div class="card-content">
+        <div class="stat-box">
+          <h3>20+</h3>
+          <p>Projects Completed</p>
         </div>
-</div>
 
-</div>
+        <div class="stat-box">
+          <h3>15+</h3>
+          <p>Happy Clients</p>
+        </div>
 
-<div class="container">
-    <div class="content">
-        <h4>The final moment</h4>
-        <H1>DECISION MAKING</H1>
-        <p>
-            We're at the end of the Valentine page! Now if you press the button below you will be redirected at the decision making page where you have to pick if you'll let me be your valentine or not (Hope you pick yes hehe)
-        </p>
-    
-        <button class="btn" onclick="redirectToDecideWebsite()">
-            Decide
-        </button>
+        <div class="stat-box">
+          <h3>PH</h3>
+          <p>Based in Philippines</p>
+        </div>
+      </div>
     </div>
+
+    <div class="about-image">
+      <img src="assets/img/AboutSection.jpg" alt="About Image">
     </div>
-    </main>
-<!--END MAIN-->
+  </section>
 
+  <footer>
+    <p>© 2026 MyWebsite. All rights reserved.</p>
+  </footer>
 
-
+</body>
 </html>
 
 <script src="js/javaScript.js"></script>
